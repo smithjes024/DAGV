@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: LivingRoom3.0.ma
-//Last modified: Mon, Feb 10, 2025 11:46:27 PM
+//Last modified: Mon, Feb 10, 2025 11:48:42 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -14,12 +14,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "95ED198A-4A92-F6CD-1CC1-ADA913787FD4";
+fileInfo "UUID" "64BF5CDB-43AC-187C-B9FE-E1926A907D29";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "606F837F-4B5E-8BBF-8257-28A378A6F840";
-	setAttr ".t" -type "double3" 10.453588799936664 5.0513226874296704 6.7431099869237858 ;
-	setAttr ".r" -type "double3" -13.538352729594589 52.599999999997387 -1.3091377996333998e-15 ;
+	setAttr ".t" -type "double3" 9.8339702884920293 5.3195801873672437 7.3910521083286342 ;
+	setAttr ".r" -type "double3" -14.738352729594585 48.59999999999738 1.2023656493395744e-15 ;
 	setAttr ".rp" -type "double3" 4.8849813083506888e-15 5.773159728050814e-15 7.1054273576010019e-15 ;
 	setAttr ".rpt" -type "double3" -1.9548945655579558e-14 7.5747860722499371e-16 2.2132030622952119e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -4520,20 +4520,20 @@ createNode aiSkyDomeLight -n "aiSkyDomeLightShape1" -p "aiSkyDomeLight1";
 	setAttr ".rcsh" no;
 	setAttr ".aal" -type "attributeAlias" {"exposure","aiExposure"} ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "CCFC96D1-4F98-5311-B346-BCA2455BF0ED";
+	rename -uid "554199B2-4C4F-5F4C-F01A-22A03E951A70";
 	setAttr -s 13 ".lnk";
 	setAttr -s 13 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "E3B11C5C-43B4-BF23-5406-6FAA493E7C15";
+	rename -uid "90460E89-4470-E879-C62A-62A7A510270F";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "06E88611-4F8A-EE05-8831-C9A9F01D2784";
+	rename -uid "DCFDFEE6-46CF-7FF4-3DDF-9CBEDC5B9C08";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "6B42E501-4383-3960-847D-95967D3E90E3";
+	rename -uid "737EF78D-49A8-43FD-6578-179F7D9EF2F1";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "5CF4730A-4431-F369-00CF-82B74A606905";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "A582DEC3-4CE6-DD8D-4780-F283DC1BE607";
+	rename -uid "060B9D69-44C7-685C-90F4-AAA0355C3910";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "0D566137-440A-9365-8A6B-74871E2BE4E6";
 	setAttr ".g" yes;
@@ -4854,7 +4854,7 @@ createNode aiPhysicalSky -n "aiPhysicalSky1";
 	setAttr ".sun_tint" -type "float3" 1 1 0.12800002 ;
 	setAttr ".intensity" 2.6339285373687744;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "8A2F0568-4438-9B55-24E2-1B9F1CD767E2";
+	rename -uid "FEB5B4EF-465F-6DFB-D744-28A91CF45FA6";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 48;
