@@ -1,3 +1,4 @@
 //Maya 2024 Project Definition
 
 workspace -fr "particles" "particles";
+workspace -fr "templates" "assets";
