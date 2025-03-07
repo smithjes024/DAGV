@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Cemetery.ma
-//Last modified: Fri, Mar 07, 2025 01:13:43 PM
+//Last modified: Fri, Mar 07, 2025 01:26:10 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -14,12 +14,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "ED79C677-4137-E7EC-45D5-D19CDCECA03A";
+fileInfo "UUID" "413BA3DD-490F-1739-D713-89B55AE4D154";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "2E751BB3-4516-574E-CEF5-17B0673751F3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.4005446830204131 2.522603984417612 3.3772923295103312 ;
+	setAttr ".t" -type "double3" 6.5789426425084105 4.6689284167717311 7.8178489633864299 ;
 	setAttr ".r" -type "double3" -378.33835275191387 -1753.4000000002854 -1.1572596763267651e-15 ;
 	setAttr ".rp" -type "double3" -1.8747406083317825e-15 -9.143239512380181e-16 0 ;
 	setAttr ".rpt" -type "double3" 2.6419105148736451e-14 2.2103818794765114e-15 6.4360255658243792e-15 ;
@@ -27,7 +27,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "79006FF6-452A-23FD-140C-00B1497A1B75";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 3.0275713511855789;
+	setAttr ".coi" 9.4807078411529595;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -16659,7 +16659,7 @@ createNode mesh -n "MainCryptShape" -p "MainCrypt";
 	setAttr -s 2 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.81507939100265503 0.27442154288291931 ;
+	setAttr ".pv" -type "double2" 0.6272599259391427 0.49973510578274727 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -22072,7 +22072,7 @@ createNode polyTweakUV -n "polyTweakUV8";
 		 0.099596083 -0.37911344 0.099389613 -0.1352241 -0.085049689 -0.37706518 -0.085256159
 		 -0.57445812 0.40919161 -0.57417995 0.35649008 -0.1479404 0.41226292;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "605314F8-4EA8-F5AF-778E-7FA14553A8C9";
+	rename -uid "AE9881E1-4656-CEF5-BBB5-B183D36D9B44";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 75;
