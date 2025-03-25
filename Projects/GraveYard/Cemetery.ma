@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Cemetery.ma
-//Last modified: Mon, Mar 24, 2025 10:33:41 PM
+//Last modified: Mon, Mar 24, 2025 10:50:20 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "81E6A430-4370-52C3-2949-D7BC85E87C5E";
+fileInfo "UUID" "228DED93-4405-E701-3718-82AD0276FEAD";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "2E751BB3-4516-574E-CEF5-17B0673751F3";
@@ -21200,7 +21200,7 @@ createNode areaLight -n "FrontLightShape" -p "FrontLight";
 createNode transform -n "areaLight1" -p "Lighting";
 	rename -uid "E7B6FDCB-4A36-8F11-525E-15B9063B6F92";
 	setAttr ".t" -type "double3" -0.75417718837212977 1.3818339519096652 -4.1787762517804108 ;
-	setAttr ".r" -type "double3" 0.15108083711292028 226.6071414955689 0.46817668853144945 ;
+	setAttr ".r" -type "double3" 0.15108083711292031 226.6071414955689 0.46817668853144945 ;
 	setAttr ".s" -type "double3" 0.97968192183306801 1 1 ;
 	setAttr ".rp" -type "double3" 0 2.2204460492503136e-16 -4.4408920985006271e-16 ;
 	setAttr ".rpt" -type "double3" 3.2044074274541374e-16 3.7961306096920186e-18 7.4877384261559774e-16 ;
@@ -21210,15 +21210,15 @@ createNode areaLight -n "areaLightShape1" -p "areaLight1";
 	setAttr -k off ".v";
 	setAttr ".in" 200;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "48517EB4-4BAE-5E50-3AB5-1C96A935511B";
+	rename -uid "80516969-4201-0980-0109-8FBE21F0FBC8";
 	setAttr -s 8 ".lnk";
 	setAttr -s 8 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "F21950E6-4360-BE76-8737-4B84454D4D15";
+	rename -uid "68391466-4B6F-741B-939C-EF8433303F7D";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "542190DB-4E46-0821-8E36-F58163F7472B";
+	rename -uid "CF014382-4D4A-9D43-C884-D3BE6B9E17E5";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "3FD39210-4DA5-F471-321F-5DA68E8B1964";
+	rename -uid "B5832FB3-4F92-D47E-66BB-1E99D4E2A6A6";
 	setAttr ".cdl" 3;
 	setAttr -s 3 ".dli[1:2]"  1 3;
 	setAttr -s 2 ".dli";
@@ -21226,7 +21226,7 @@ createNode displayLayer -n "defaultLayer";
 	rename -uid "8CB8133D-46BE-C733-1C0E-B48A5E017D39";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "F12A75CD-4381-0854-5A64-9E841718585C";
+	rename -uid "CFEDA4CF-475E-04FD-99FD-CAB253B880D2";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "B4191804-4BC9-8439-EF44-4C9993F9D16A";
 	setAttr ".g" yes;
@@ -21460,7 +21460,7 @@ createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
 	setAttr ".tgi[0].ni[11].y" 99.523811340332031;
 	setAttr ".tgi[0].ni[11].nvs" 1923;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "EBE6B994-49AC-7D3C-B18B-9B8CC9F9AC59";
+	rename -uid "8EBA4271-4B12-097B-6336-B9878B215E36";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 75;
