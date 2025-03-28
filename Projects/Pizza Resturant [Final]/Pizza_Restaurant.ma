@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Pizza_Restaurant.ma
-//Last modified: Thu, Mar 27, 2025 07:16:38 PM
+//Last modified: Thu, Mar 27, 2025 07:39:28 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
@@ -10,18 +10,18 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "9091187D-4DD8-EECA-0B0E-AD98850F91B0";
+fileInfo "UUID" "A2302B0B-4DD4-60EF-03CA-759B4D41F38D";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "A2EAC368-493C-21F6-58F2-CAB2AB036FEB";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 10.935805660599581 16.198050154781587 19.862263336293992 ;
-	setAttr ".r" -type "double3" -31.538352729728473 1109.3999999993089 0 ;
+	setAttr ".t" -type "double3" 5.1612423927732465 4.3145231044460663 12.418581508232673 ;
+	setAttr ".r" -type "double3" -3.3383527297269802 1097.7999999992742 -1.0438952368551516e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "EFD3F4E4-4EFF-08DB-E0C3-7E94C931D88D";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 24.385333160984942;
+	setAttr ".coi" 9.7771135652274115;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -76,11 +76,11 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
-createNode transform -n "pCube6";
+createNode transform -n "Basic_Room_WB_";
 	rename -uid "9E5A0427-4081-7154-16DD-4982ED9017C2";
 	setAttr ".rp" -type "double3" 0 4.2500000918848899 -2.384185791015625e-07 ;
 	setAttr ".sp" -type "double3" 0 4.2500000918848899 -2.384185791015625e-07 ;
-createNode mesh -n "pCube6Shape" -p "pCube6";
+createNode mesh -n "Basic_Room_WB_Shape" -p "Basic_Room_WB_";
 	rename -uid "CB979A57-4FAB-8019-3B7D-628ED0854FE1";
 	setAttr -k off ".v";
 	setAttr -s 2 ".iog[0].og";
@@ -109,7 +109,7 @@ createNode mesh -n "pCube6Shape" -p "pCube6";
 	setAttr ".pt[69]" -type "float3" 0 0.18718003 0 ;
 	setAttr ".pt[70]" -type "float3" 0 0.18718003 0 ;
 	setAttr ".pt[71]" -type "float3" 0 0.18718003 0 ;
-createNode mesh -n "polySurfaceShape1" -p "pCube6";
+createNode mesh -n "polySurfaceShape1" -p "Basic_Room_WB_";
 	rename -uid "32350DF9-434A-7C37-C46A-898C94B1C667";
 	setAttr -k off ".v";
 	setAttr ".io" yes;
@@ -235,17 +235,23 @@ createNode mesh -n "polySurfaceShape1" -p "pCube6";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "pCube7";
 	rename -uid "3EFBB300-447F-C4D6-B944-32ADE41CF526";
-	setAttr ".t" -type "double3" 0 1.8889823050342893 0 ;
+	setAttr ".t" -type "double3" 2.5850948944747962 2.4929491148294329 1.9519119720215201 ;
+	setAttr ".s" -type "double3" 1.6927021326695955 1.6927021326695955 1.6927021326695955 ;
 createNode mesh -n "pCubeShape1" -p "pCube7";
 	rename -uid "CA0E03F5-453C-A400-3F81-3E8BBAE53D40";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.125 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 8 ".pt[0:7]" -type "float3"  -0.07566528 0.3894636 0.07566528 
+		0.07566528 0.3894636 0.07566528 -0.07566528 -0.3894636 0.07566528 0.07566528 -0.3894636 
+		0.07566528 -0.07566528 -0.3894636 -0.07566528 0.07566528 -0.3894636 -0.07566528 -0.07566528 
+		0.3894636 -0.07566528 0.07566528 0.3894636 -0.07566528;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "6C145A3E-41D4-7A4A-5325-67A8DA23868A";
 	setAttr -s 2 ".lnk";
@@ -490,9 +496,9 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
-connectAttr "polyExtrudeFace4.out" "pCube6Shape.i";
-connectAttr "groupId1.id" "pCube6Shape.iog.og[0].gid";
-connectAttr ":initialShadingGroup.mwc" "pCube6Shape.iog.og[0].gco";
+connectAttr "polyExtrudeFace4.out" "Basic_Room_WB_Shape.i";
+connectAttr "groupId1.id" "Basic_Room_WB_Shape.iog.og[0].gid";
+connectAttr ":initialShadingGroup.mwc" "Basic_Room_WB_Shape.iog.og[0].gco";
 connectAttr "polyCube1.out" "pCubeShape1.i";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
@@ -505,20 +511,20 @@ connectAttr ":defaultArnoldDisplayDriver.msg" ":defaultArnoldRenderOptions.drive
 connectAttr ":defaultArnoldFilter.msg" ":defaultArnoldRenderOptions.filt";
 connectAttr ":defaultArnoldDriver.msg" ":defaultArnoldRenderOptions.drvr";
 connectAttr "groupParts1.og" "polyExtrudeFace1.ip";
-connectAttr "pCube6Shape.wm" "polyExtrudeFace1.mp";
+connectAttr "Basic_Room_WB_Shape.wm" "polyExtrudeFace1.mp";
 connectAttr "polySurfaceShape1.o" "groupParts1.ig";
 connectAttr "groupId1.id" "groupParts1.gi";
 connectAttr "polyTweak1.out" "polyExtrudeFace2.ip";
-connectAttr "pCube6Shape.wm" "polyExtrudeFace2.mp";
+connectAttr "Basic_Room_WB_Shape.wm" "polyExtrudeFace2.mp";
 connectAttr "polyExtrudeFace1.out" "polyTweak1.ip";
 connectAttr "polyTweak2.out" "polyExtrudeFace3.ip";
-connectAttr "pCube6Shape.wm" "polyExtrudeFace3.mp";
+connectAttr "Basic_Room_WB_Shape.wm" "polyExtrudeFace3.mp";
 connectAttr "polyExtrudeFace2.out" "polyTweak2.ip";
 connectAttr "polyTweak3.out" "polyExtrudeFace4.ip";
-connectAttr "pCube6Shape.wm" "polyExtrudeFace4.mp";
+connectAttr "Basic_Room_WB_Shape.wm" "polyExtrudeFace4.mp";
 connectAttr "polyExtrudeFace3.out" "polyTweak3.ip";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-connectAttr "pCube6Shape.iog.og[0]" ":initialShadingGroup.dsm" -na;
+connectAttr "Basic_Room_WB_Shape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
 // End of Pizza_Restaurant.ma
