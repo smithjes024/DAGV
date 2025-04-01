@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Pizza_Restaurant.ma
-//Last modified: Mon, Mar 31, 2025 08:19:11 PM
+//Last modified: Mon, Mar 31, 2025 08:25:39 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 22621)";
-fileInfo "UUID" "0B37922F-4FA2-9A64-BEE3-E6B9A11BAAB0";
+fileInfo "UUID" "F812D4A2-4756-0440-D580-D090744DCB46";
 fileInfo "license" "education";
 createNode transform -n "MainView";
 	rename -uid "37B34D62-4B48-ACB5-94B2-0C8D815FB004";
