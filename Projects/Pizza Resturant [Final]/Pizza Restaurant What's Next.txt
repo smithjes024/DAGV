@@ -1,0 +1,21 @@
+Pizza Restaurant What's Next?
+MODELING
+- I need to model the window doors for the Kitchen Window
+- I need to model the plant leaves and apples
+- I need to change how the tablecloth is set up to make it droop
+- Put everything side by side on the same monitor and check how they look without moving MainView (Counter needs some up scaling)
+
+COLOR
+- I need to create color for anything that doesn't have an assigned color yet
+- Create a pictures for the Menus/Spice Rack/Picture on the counter
+- The color for the oven chimney and the counter base can be the same but they need to be different than the brick kitchen wall
+
+LIGHTING
+- Create some basic lighting
+- Move on to more advanced after texturing
+
+UV Mapping
+	- I need to UV map the floor
+	- I need to UV map the wooden tables/walls/counters
+	- I need to UV map the bottle on the counter then duplicate it to the table and kitchen floor
+	- I need to UV map the cup on the table
