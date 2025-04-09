@@ -1,6 +1,5 @@
 Pizza Restaurant What's Next?
 MODELING
-- I need to model the window doors for the Kitchen Window
 - I need to model the plant leaves and apples
 - I need to change how the tablecloth is set up to make it droop
 - Put everything side by side on the same monitor and check how they look without moving MainView (Counter needs some up scaling)
