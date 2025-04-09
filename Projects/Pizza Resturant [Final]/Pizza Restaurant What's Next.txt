@@ -12,10 +12,13 @@ COLOR
 
 LIGHTING
 - Create some basic lighting
-- Move on to more advanced after texturing
+- Move on to more advanced after texturing/substance painter
 
 UV Mapping
 	- I need to UV map the floor
 	- I need to UV map the wooden tables/walls/counters
 	- I need to UV map the bottle on the counter then duplicate it to the table and kitchen floor
 	- I need to UV map the cup on the table
+
+SUBSTANCE PAINTER
+- EVERYTHING UV MAPPED
