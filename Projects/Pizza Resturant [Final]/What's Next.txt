@@ -1,8 +1,6 @@
 Pizza Restaurant What's Next?
 MODELING
 - I need to model the plant leaves and apples
-- I need to change how the tablecloth is set up to make it droop
-- Put everything side by side on the same monitor and check how they look without moving MainView (Counter needs some up scaling)
 
 COLOR
 - I need to create color for anything that doesn't have an assigned color yet
@@ -14,10 +12,11 @@ LIGHTING
 - Move on to more advanced after texturing/substance painter
 
 UV Mapping
-	- I need to UV map the floor
 	- I need to UV map the wooden tables/walls/counters
 	- I need to UV map the bottle on the counter then duplicate it to the table and kitchen floor
 	- I need to UV map the cup on the table
 
 SUBSTANCE PAINTER
-- EVERYTHING UV MAPPED
+- EVERYTHING UV MAPPED and onto one square
+
+
