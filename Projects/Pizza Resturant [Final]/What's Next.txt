@@ -1,6 +1,6 @@
 Pizza Restaurant What's Next?
 MODELING
-- I need to model the plant leaves and apples
+- I need to model the plant leaves
 
 COLOR
 - I need to create color for anything that doesn't have an assigned color yet
