@@ -1,8 +1,5 @@
 Pizza Restaurant What's Next?
 
-COLOR
-- The color for the oven chimney and the counter base can be the same but they need to be different than the brick kitchen wall
-
 LIGHTING
 - Create some basic lighting
 - Move on to more advanced after texturing/substance painter
