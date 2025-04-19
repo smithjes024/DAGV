@@ -5,34 +5,7 @@ LIGHTING
 - Move on to more advanced after texturing/substance painter
 
 UV Mapping
-	-UV Mapping Done
-		- Walls
-		- FloorTiles
-		- Table Group
-		- Street Group
-	UV Mapping To Do
-		- Kitchen Group
-			- Counter
-				-PlantPot
-			- Window
-				- Frame
-				- Door
-				- FlowerPot
-			- Basket
-		- Oven Group
-			- Fireplace
-				- Oven
-				- Exhaust
-			- Pizza
-				- Base
-				- Toppings
-			-  Table
-				- Table
-				- Edge
-			- Shelf
-				- FancyBottle
-				- PlantPot
-				- Shelf
+- Get everything lined up in the 1 square for a UV mapping shot
 
 SUBSTANCE PAINTER
 - Move Everything to fit into one Square - Figure out how to get the pictures to work with UV mapping
