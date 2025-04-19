@@ -5,11 +5,37 @@ LIGHTING
 - Move on to more advanced after texturing/substance painter
 
 UV Mapping
-	- I need to UV map the wooden tables/walls/counters
-	- I need to UV map the bottle on the counter then duplicate it to the table and kitchen floor
-	- I need to UV map the cup on the table
+	-UV Mapping Done
+		- Walls
+		- FloorTiles
+		- Table Group
+		- Street Group
+	UV Mapping To Do
+		- Kitchen Group
+			- Counter
+				-PlantPot
+			- Window
+				- Frame
+				- Door
+				- FlowerPot
+			- Basket
+		- Oven Group
+			- Fireplace
+				- Oven
+				- Exhaust
+			- Pizza
+				- Base
+				- Toppings
+			-  Table
+				- Table
+				- Edge
+			- Shelf
+				- FancyBottle
+				- PlantPot
+				- Shelf
 
 SUBSTANCE PAINTER
-- EVERYTHING UV MAPPED and onto one square
+- Move Everything to fit into one Square - Figure out how to get the pictures to work with UV mapping
+- Export the UV Square to Substance Painter
 
 
